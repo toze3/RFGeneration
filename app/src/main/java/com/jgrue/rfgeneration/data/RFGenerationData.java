@@ -91,6 +91,7 @@ public class RFGenerationData extends SQLiteOpenHelper {
             ih.prepareForInsert(); ih.bind(id, 222); ih.bind(name, "Nintendo New Nintendo 3DS"); ih.bind(abbv, "N3DS"); ih.execute();
             ih.prepareForInsert(); ih.bind(id, 223); ih.bind(name, "Sega AI Computer"); ih.bind(abbv, "AIC"); ih.execute();
             ih.prepareForInsert(); ih.bind(id, 224); ih.bind(name, "Apple IIGS"); ih.bind(abbv, "IIGS"); ih.execute();
+	    ih.prepareForInsert(); ih.bind(id, 231); ih.bind(name, "Nintendo Switch"); ih.bind(abbv, "NS"); ih.execute();
         }
 	}
 	
